@@ -1,15 +1,14 @@
 body {
     background-color: #1F2937;
-}
-
-.container {
     display: flex;
     flex-direction: column;
 }
 
+
 /* Header Logo and Header Links */
-.navbar {
+.header-img-and-nav {
     display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -18,14 +17,17 @@ body {
     height: auto;
 }
 
-.nav-list-links {
+.list-links {
     margin: 0;
     padding: 0;
+    gap: 20px;
     list-style: none;
     display: flex;
+    
 }
 
 .nav-element {
     font-size: 18px;
     color: #EFE7EB;
+    text-decoration: none;
 }

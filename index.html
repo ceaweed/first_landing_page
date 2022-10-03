@@ -6,18 +6,29 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-      <div class="container"> 
         <!--This is the Header Logo and Header Link section-->
-        <nav class="navbar">
+        <div class="header-img-and-nav">
             <div class="img-div">
-                <img id="header-logo" src="./images/companyLogo.jpg">
+                <img id="header-logo" src="./images/companyLogo.jpg" alt="chemist bottle">
+            </div> 
+            <nav>
+                <ul class="list-links">
+                    <li ><a class="nav-element" href="#">About Us</a></li>
+                    <li ><a class="nav-element" href="#">Shop</a></li>
+                    <li ><a class="nav-element" href="#">Contact Us</a></li>
+                </ul>  
+            </nav> 
+        </div>
+        <!--This is the Top Main Content Area-->
+        <div class="top-content">
+            <div class="top-content-left">
+                <h1 id="awesome-website">This website is awesome!</h1>
+                <p id="sub-context-text">This website has some sub-context text that is much smaller</p>
+                <button id="sign-up">Sign Up!</button>
             </div>
-            <ul class="nav-list-links">
-                <li class="nav-element">About Us</li>
-                <li class="nav-element">Shop</li>
-                <li class="nav-element">Contact Us</li>
-            </ul>   
-        </nav>
-      </div>  
+            <div class="top-content-right">
+                <img src="./images/chemist.jpeg" alt="chemist">
+            </div>
+        </div>
     </body>
 </html>
