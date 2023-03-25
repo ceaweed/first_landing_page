@@ -43,15 +43,92 @@ body {
     background-color: #1F2937;
     align-items: center;
     justify-content: center;
+    padding: 90px;
+}
+
+.top-content-left {
+    flex-basis: 400px;
+    text-align: left;
+    margin-right: 200px;
+}
+
+.top-content-right img {
+    width: 500px;
+    height: 300px;
+}
+
+#sign-up {
+    display: block;
+    text-align: center;
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    width: 110px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#sign-up:hover {
+    cursor: pointer;
 }
 
 #awesome-website {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bolder;
+    
 }
 
 #sub-context-text {
     color: #E5E7EB;
     font-size: 18px;
 }
+
+/*This is secondary content styling section*/
+.secondary-content {
+    align-items: center;
+}
+
+#second-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.img-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.img-cards img {
+    width: 200px;
+    height: 133px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+
+/* This is quote styling section */
+.quote-area {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 0 200px;
+
+}
+
+#quote-by-me {
+    padding-top: 25px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#author-of-quote {
+    text-align: right;
+    padding-bottom: 50px;
+    padding-right: 15px;
+}
+
+/* This is the call-to-action styling section */
