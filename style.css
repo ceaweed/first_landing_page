@@ -132,3 +132,48 @@ body {
 }
 
 /* This is the call-to-action styling section */
+.sign-up-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.sign-up-text {
+    text-align: left;
+    margin-left: 200px;
+}
+
+.sign-up-button {
+    margin-right: 200px;
+}
+
+#sign-up-two {
+    display: block;
+    text-align: center;
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    width: 110px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#sign-up-two:hover {
+    cursor: pointer;
+}
+
+/* This is the styling of the footer */
+.footer {
+    background-color: #1F2937;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+}
